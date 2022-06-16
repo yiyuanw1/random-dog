@@ -1,6 +1,6 @@
 # Running the App
 
-App Name: random dog
+App Name: random dog <br>
 Author: Yiyuan Wei
 
 ## prerequisite
