@@ -3,12 +3,6 @@ import DogDisplay from "./dogDisplay";
 import "./dogCanvas.css";
 
 class DogCanvas extends Component {
-  constructor() {
-    super();
-    this.state = {
-      displays: [],
-    };
-  }
 
   fresh() {
     window.location.reload(true);

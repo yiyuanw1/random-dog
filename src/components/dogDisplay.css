@@ -1,4 +1,4 @@
-.dogDisplay img{
+.dogDisplay img, .dogDisplay video{
     width: 100%;
     height: auto;
 }
