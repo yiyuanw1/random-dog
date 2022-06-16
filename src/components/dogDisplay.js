@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import "./dogDisplay.css"
 
 class DogDisplay extends Component{
 
@@ -28,7 +29,7 @@ class DogDisplay extends Component{
     
     render(){
         return(
-            <div>
+            <div className="dogDisplay">
                 <img src={this.state.url} alt=""/>
             </div>
         )
