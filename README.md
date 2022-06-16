@@ -33,3 +33,7 @@ Same as build app, except running
 section
 3. find the line for <i>"test"</i>
 4. add the options the end of the <i>"react-scripts test"</i>
+           
+## Extra Info:
+The style is not well designed for this project at this stage. <br>
+The loading process is a bit longer, but should be able to finish in 2 or 3 seconds. <br>
