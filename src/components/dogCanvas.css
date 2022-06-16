@@ -1,0 +1,16 @@
+.canvas{
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .canvas .displays{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+.canvas button{
+    width: auto;
+    height: fit-content;
+}
