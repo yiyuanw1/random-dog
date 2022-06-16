@@ -37,3 +37,4 @@ section
 ## Extra Info:
 The style is not well designed for this project at this stage. <br>
 The loading process is a bit longer, but should be able to finish in 2 or 3 seconds. <br>
+There are some warnings left in the testing, mostly about the mocked response and mount function from enzyme package, can be ignored.
