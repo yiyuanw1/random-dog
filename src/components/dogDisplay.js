@@ -12,8 +12,8 @@ class DogDisplay extends Component{
         }
     }
 
-    getDog = () => {
-        axios.get("https://random.dog/woof.json").then(
+    getDog = async () => {
+        await axios.get("https://random.dog/woof.json").then(
             response => {
                 this.setState({
                     url: response.data.url,

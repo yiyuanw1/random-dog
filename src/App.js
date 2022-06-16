@@ -1,10 +1,10 @@
 import './App.css';
-import DogDisplay from './components/dogDisplay';
+import DogCanvas from './components/dogCanvas';
 
 function App() {
   return (
     <div className="App">
-      <DogDisplay />
+      <DogCanvas />
     </div>
   );
 }
